@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: aquamarine;
+}
+
+/*********************headher title/logo********************/
+
+header {
+    text-align: center;
+    border: 3px solid salmon;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/*****************************header nav**********************/
+nav {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 40px;
+}
+
+nav img {
+    height: 60px;
+}
+
+/********************************section*****************************/
+ section {
+    margin: auto;
+    text-align: center; 
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+section article p {
+    margin: auto;
+    margin-top: 15px;
+}
+
+section article,
+form {
+    margin-top: 35px;
+    padding: 20px;
+    text-align: center;
+    border: 1px rgba(0, 0, 0 .125);
+    border-radius: 5px;
+}
+
+section h2 {
+    text-align: center;
+    background-color: darkgoldenrod;
+    border: 3px solid
+}
+
+article {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: left;
+    border: 1px rgba(0, 0, 0 .125);
+    border-radius: 5px;
+}
+
+section article img {
+    height: 60px;
+}
+
+.align-article article {
+    margin: 20px;
+    height: 500px;
+    display: inline-block;
+   
+    width: 40%;
+    text-align: center;
+
+}
+
+#randonee article {
+    width: 40%;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid red;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+/*********************section contact************************/
+
+form {
+    text-align: start;
+    margin: auto;
+    width: 60%;
+    font-weight: bold;   
+}
+
+#contact h2 img{
+    width: 10%;
+}
+
+input,
+textarea {
+height: 25px;
+border-radius: 3px;
+border: 1px solid orange;
+margin: 5px 0 15px 0;
+width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #ced4da;
+    outline: 3px solid #61adf8;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.submit-container{
+    width: 100%;
+    text-align: center;
+}
